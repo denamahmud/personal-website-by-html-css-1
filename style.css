@@ -1,0 +1,283 @@
+*{
+    
+    margin: 0;
+    padding: 0;
+    
+    
+}
+
+
+html{
+    scroll-behavior: smooth
+    
+    
+}
+
+
+.container{
+    
+    width: 100%
+    
+}
+
+.nHeader{
+    
+    width: 100%;
+    background-color: #E0FBFC;
+    
+    
+}
+
+.nHeader nav{
+    
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-around
+}
+
+.nHeader nav .img{
+    
+    
+    width: 25%;
+}
+
+.nHeader nav .img img{
+    
+    width: 35px;
+    height: 35px;
+    position: relative;
+    left: 20%;
+ 
+    
+}
+.nHeader nav ul{
+    
+    width: 75%;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    
+}
+.nHeader nav ul li{
+    
+    list-style: none
+    
+    
+}
+
+.nHeader nav ul li a{
+    
+    text-transform: uppercase;
+    font-size: 20px;
+    color: #293241;
+    text-decoration: none;
+    padding: 12px
+    
+}
+.nHeader nav ul li a:hover{
+    
+    background-color: #EE6C4D;
+    color: #ddd;
+    transition: .5s
+    
+}
+
+.nHeader .bio{
+    
+    width: 100%;
+    background-color: #EE6C4D;
+    height: 60vh;
+    display: flex
+    
+}
+.nHeader .bio .bio-1{
+    
+    
+    width: 20%;
+    height: 100px;
+    margin: auto;
+    text-align: center;
+    border-left: 2px solid #ddd;
+    border-bottom: 2px solid #ddd;
+    
+}
+.nHeader .bio .bio-1:hover{
+    
+    
+    opacity: .8;
+    
+}
+    
+.nHeader .bio .bio-1 h2{
+    
+    font-size: 35px;
+    color: #293241;
+    font-family: 'chewy',cursive;
+    
+    
+}
+
+.nHeader .bio .bio-1 p{
+    
+    padding-top: 10px;
+    color: #ddd;;
+    font-family: sans-serif;
+}
+.nHeader .bio .bio-2
+{
+    width: 50%
+    
+}
+.nHeader .bio .bio-2 img{
+    
+    width: 250px;
+    height: 250px;
+    margin-left: 250px;
+    margin-top: 100px;
+    border-radius: 50%
+}
+
+.nHeader .bio .bio-2 img:hover{
+    
+    opacity: .8;
+}
+
+.about-me{
+    
+    width: 100%;
+    display: flex;
+    height: 50vh;
+    color: #293241;
+    background-color: #E0FBFC;
+    
+}
+
+.about-me .para-about-me{
+    
+    width: 50%
+    
+    
+}
+
+.about-me .para-about-me p{
+    
+    text-align: justify;
+    margin-top: 100px;
+    margin-left: 250px;
+    width: 300px;
+    height: 300px;
+    
+}
+
+.about-me .title-about-me h2{
+    
+    margin-top: 150px;
+    margin-left: 300px;
+    
+    
+}
+.my-channel{
+    
+    width: 100%;
+    font-size: 30px;
+    height: 50vh;
+    color: #293241;
+    background-color: #98C1D9;
+    text-align: center
+    
+}
+
+.my-channel h2{
+    padding-top: 130px;
+    padding-bottom: 50px;
+    
+}
+.my-channel a{
+    
+    text-decoration: none;
+    background-color: #ff0000;
+    color: #ddd;
+    padding: 20px;
+    border-radius: 10px
+      
+}
+
+.my-channel a:hover{
+    
+
+    background-color: #990000;
+    transition: .5s
+    
+    
+}
+.social-media{
+    
+    height: 50vh;
+    width: 100%;
+    background-color: #E0FBFC;
+    
+    
+}
+
+.social-media ul{
+    
+    display: flex;
+    justify-content: space-around;
+    width: 20%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 180px;
+    
+}
+.social-media ul li{
+    list-style: none
+    
+    
+}
+
+.social-media ul li a{
+    
+    text-decoration: none;
+    font-size: 20px;
+    padding: 10px;
+    color: #293241;
+    
+    font-family: sans-serif
+    
+}
+
+.social-media ul li .facebook:hover{
+    
+    background-color: #3b5998;
+    color: #ddd;
+    border-radius: 10px;
+    transition: 1s;
+    
+}
+
+.social-media ul li .instagram:hover{
+    
+    background-color: #E1306c;
+    color: #ddd;
+    border-radius: 10px;
+    transition: 1s;
+    
+}
+
+
+.social-media ul li .twitter:hover{
+    
+    background-color: #1DA1F2;
+    color: #ddd;
+    border-radius: 10px;
+    transition: 1s;
+    
+}
+
+
+
+
+
+
